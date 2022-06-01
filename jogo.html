@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Jogo Da Forca</title>
+    </head>
+    <body onload="comecarJogo()">
+        <header class="logo-alura">
+            <a href="https://www.alura.com.br/"><img class="imagem" src="alura.png" alt="Logo Alura"></a>
+        </header>
+        <main>
+            <div class="tes">
+                <div class="canvas"> 
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div class="letras-erradas-texto">
+                    <h1>Letras erradas</h1> 
+                </div>            
+                    <div class="letras-erradas">
+                    </div>
+                 <div class="fim-de-jogo">
+                <h2>Fim de jogo!</h2>
+                <h2>Você perdeu!</h2>
+                </div>
+                <div class="ganhou">
+                    <h1>Parabéns, você ganhou! </h1>
+                </div>
+                <div class="palavra">
+                    <div class="palavra-secreta">         
+                </div>
+            </div>
+            </div>   
+            <div class="botoes-tela-jogo">
+                <button class="jogar-novamente"onClick="document.location.reload(true)" >Jogar novamente</button>
+               <a href="index.html"><button class="desistir">Voltar</button></a>  
+            </div>    
+        </MAIN>
+        <footer>
+             <p class="copyright"> &copy;Desenvolvido por: Lucas Pinheiro-2022</p>
+        </footer>     
+        <script src="iniciar-jogo.js"></script>
+        <script src="canvas.js"></script> 
+    </body>
+    
+</html>    
