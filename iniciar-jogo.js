@@ -28,6 +28,7 @@ var letrasCertas = [];
    	function adicionarPalavra(){
    		var novaPalavra = inputAdicionar.value;
    		if(!regex.test(inputAdicionar.value)){
+ 			alert("somente palavras com letras maiúsculas,sem caracteres e sem espaço.");			
    			return;
    		}else{
    			if(concat.includes(novaPalavra)){
@@ -36,7 +37,7 @@ var letrasCertas = [];
    				setTimeout(function(){ 
                 	span.classList.remove("aparece");
                 	span.classList.add("escuro");  
-            	}, 1000);
+            	}, 2000);
    				return;
    			}else{
    				palavraAdicionada.push(novaPalavra);
@@ -47,7 +48,7 @@ var letrasCertas = [];
    				setTimeout(function(){ 
                 	spanAdiciona.classList.remove("adicionada-sucesso-certo");
                 	spanAdiciona.classList.add("adicionada-sucesso");  
-            	}, 1000);
+            	}, 2000);
    			}
    		}
    	}	
