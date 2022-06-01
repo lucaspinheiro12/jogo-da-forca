@@ -1,0 +1,223 @@
+html{
+	background: linear-gradient(#7fffd4,#8ef5d0,#9beacd,#a6dfc9,#b0d5c6,#b8cac2,#bfbfbf);
+	width:940px;
+	height:100%;
+}
+.logo-alura{
+margin-top: 10px ;
+}
+.imagem{
+	position:relative;
+    text-align:left;
+    padding: 15px 0 0 0;
+}
+.titulo{
+	display: flex;
+	width: 100%;
+    font-size: 40px;
+    padding: 70px 0 0 60%;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+.comecar-jogo{
+	margin-top: 20%;
+    margin-left:50% ;
+    width: 20%;
+    padding:15px 0 ;
+    background:darkblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s all;
+    cursor: pointer; 
+    border: none;
+}        
+.comecar-jogo:hover {
+	background: #000000;
+}
+.adicionar-palavra{
+    margin: 10px 20px 0 40px ;
+    width: 20%;
+    padding:15px 0 ;
+    background: darkblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s all;
+    cursor: pointer; 
+    border: none;
+}
+.adicionar-palavra:hover{
+	background: #000000;	
+}
+.desistir{
+    margin: 10px 20px 0 40px ;
+    width: 20%;
+    padding:15px 0 ;
+    background: darkblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s all;
+    cursor: pointer; 
+    border: none;	
+}
+.desistir:hover{
+	background: #000000;	
+}
+.jogar-novamente{
+    margin-left:50% ;
+    width: 20%;
+    padding:15px 0 ;
+    background:darkblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s all;
+    cursor: pointer; 
+    border: none;	
+}
+.jogar-novamente:hover{
+	background: #000000;	
+}
+.copyright{	
+    margin-left:38%;
+    font-size: 19px;
+     font-weight: bold;
+    font-style: italic;
+    position: absolute;
+	bottom: 0;
+}
+.copyright:hover {
+    color:#00008b;
+}
+.tes{
+	display:flex;
+}
+.canvas{
+	display:block;
+	position: relative;
+	margin-top: 60px;
+	margin-left: 80px;
+}
+.letras-erradas-texto{
+	display:block;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 38%;
+	font-size: 28px;
+	font-weight: bold;
+}
+.letras-erradas{
+	display:block;
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 40%;
+	font-size: 25px;
+	font-weight: bold;
+	color:#9c0000;
+}
+.palavra{
+	display:block;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 48%;
+}
+.palavra-secreta{
+	font-size:30px;
+	font-weight: bold;
+}
+.fim-de-jogo{
+	margin-top: 200px;
+	font-size: 35px;
+	font-weight: bold;
+	font-style:italic ;
+	color:#ff0000 ;
+}
+.ganhou{
+	text-align: center;
+	margin-top: 200px;
+	font-size: 35px;
+	font-weight: bold;
+	font-style:italic ;
+	color:darkblue ;	
+}
+.conteiner{
+	width: 940px;
+}
+.nova-palavra{
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 400px;
+}
+.input-texto{	
+	background: transparent;
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	border: none;
+}
+.regra{
+	color: darkred;
+	font-weight: bold;
+}
+.adicionar-nova-palavra{
+	display: inline-block;
+	margin-top: 35px;
+	margin-left: 44%;
+	margin-bottom: 15px;
+    width: 20%;
+    padding:15px 0 ;
+    background:darkblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s all;
+    cursor: pointer; 
+    border: none;
+}
+.adicionar-nova-palavra:hover{
+	background: #000000;	
+}
+.jogar{
+	display: inline-block;
+	margin-left: 14%; 
+    width: 20%;
+    padding:15px 0 ;
+    background:darkblue;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 2s all;
+    cursor: pointer; 
+    border: none;
+}
+.jogar:hover{
+		background: #000000;	
+}
+.escuro{
+	opacity: 0;
+}
+.aparece{
+	width: 940px;
+	margin-left: 45%;
+	opacity: 1;
+	color: darkred;
+	font-weight: bold;
+}
+.adicionada-sucesso{
+	opacity: 0;
+}
+.adicionada-sucesso-certo{
+	opacity: 1;
+	margin-left: 60%;
+	color: darkblue;
+	font-weight: bold;
+}
