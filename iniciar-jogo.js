@@ -98,8 +98,8 @@ var letrasCertas = [];
 	}
 
 	function Atualiza() {
-	PalavraAcertada();
-	tentativasErradas();
+		PalavraAcertada();
+		tentativasErradas();
 	}
 
 	function tentativasErradas(){
