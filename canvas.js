@@ -9,18 +9,18 @@
     }
 
     function desenhaCabeca(x,y,raio,cor){
-    pincel.fillStyle = cor
+        pincel.fillStyle = cor
         pincel.beginPath();
         pincel.arc(x, y, raio, 0, 2*3.14);
         pincel.fill();
     }
 
     function desenhaBracosPernas(x,y,xa,ya){
-    pincel.fillStyle ="black";
-    pincel.moveTo(x,y);
-    pincel.lineTo(xa,ya);
-    pincel.lineWidth = 3; 
-    pincel.stroke();
+        pincel.fillStyle ="black";
+        pincel.moveTo(x,y);
+        pincel.lineTo(xa,ya);
+        pincel.lineWidth = 3; 
+        pincel.stroke();
     }
 
     function cabeca(){
